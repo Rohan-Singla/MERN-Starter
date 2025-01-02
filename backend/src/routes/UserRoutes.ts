@@ -2,8 +2,11 @@ import { Router } from 'express';
 
 const router = Router();
 
-router.get('/', (req, res) => {
-  res.send('User API');
+router.get('/welcome', (req, res) => {
+  res.send('welcome API');
+});
+router.get('/data', (req, res) => {
+  res.send('mydata API');
 });
 
 export default router;
