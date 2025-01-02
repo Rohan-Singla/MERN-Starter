@@ -8,5 +8,8 @@ router.get('/welcome', (req, res) => {
 router.get('/data', (req, res) => {
   res.send('mydata API');
 });
+router.get('/test', (req, res) => {
+  res.send('mydata API');
+});
 
 export default router;
