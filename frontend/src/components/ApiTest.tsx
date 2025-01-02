@@ -23,7 +23,7 @@ const ApiTest = () => {
 
   return (
     <div>
-      <h1>Response from Backend</h1>
+      <h1 className="text-red-500">Response from Backend</h1>
       <p>{response}</p> {/* Display plain text response */}
     </div>
   );
